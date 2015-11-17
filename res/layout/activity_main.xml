@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.4"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:background="@android:color/white"
+        android:capitalize="none"
+        android:ems="10"
+        android:fadingEdge="none"
+        android:gravity="top"
+        android:padding="5dp"
+        android:hint="Enter text here..."
+        android:scrollbars="vertical|horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGetHighlightedWords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Highlighted Words" />
+    
+</LinearLayout>
